@@ -32,10 +32,12 @@ This project demonstrates parallel matrix multiplication using MPI (Message Pass
     For Ubuntu/Debian:
     ```bash
     sudo apt-get install openmpi-bin libopenmpi-dev
+    ```
 
     For macOS:
      ```bash
     brew install open-mpi
+     ```
 
 3. **Running the Code**:
 
