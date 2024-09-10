@@ -37,37 +37,39 @@ This project demonstrates parallel matrix multiplication using MPI (Message Pass
      ```bash
     brew install open-mpi
 
-3. **Running the Code**
+3. **Running the Code**:
 
     ***Sequential Implementation***
     Run the sequential matrix multiplication script:
     ```bash
     python3 matrix_multiply.py
+    ```
 
     ***Parallel Implementation***
     Run the parallel matrix multiplication script using MPI:
     ```bash
     mpiexec -n 4 python3 matrix_multiply_mpi.py
+    ```
 
-Results
-Sequential Matrix Multiplication
-Execution Time: 0.863 seconds for a 5000x5000 matrix
-Parallel Matrix Multiplication
-Execution Time: 1.860 seconds for a 5000x5000 matrix with 4 processes
+4. ***Results***:
+   - Sequential Matrix Multiplication
+   - Execution Time: 0.863 seconds for a 5000x5000 matrix
+   
+   - Parallel Matrix Multiplication
+   - Execution Time: 1.860 seconds for a 5000x5000 matrix with 4 processes
 
-Observations
-The sequential implementation is faster than the parallel implementation for this matrix size and setup.
-Performance of the parallel implementation might be affected by communication overhead and resource contention.
+5. ***Observations***:
+   The sequential implementation is faster than the parallel implementation for this matrix size and setup.
+   Performance of the parallel implementation might be affected by communication overhead and resource contention.
 
-Future Work
-Test with larger matrices and different numbers of processes to better understand the performance characteristics of parallel matrix multiplication.
-Optimize MPI communication and workload distribution to improve parallel performance.
-Explore additional parallel computing techniques and libraries for enhanced performance.
+6. ***Future Work***:
+   - Test with larger matrices and different numbers of processes to better understand the performance characteristics of parallel matrix multiplication.
+   - Optimize MPI communication and workload distribution to improve parallel performance.
+   - Explore additional parallel computing techniques and libraries for enhanced performance.
 
-Contact
-For questions or further discussions, please contact:
-Mishal Singhai
-[Email Me](mailto:mishalsinghai21032001@gmail.com)
+7. ***Contact***
+   For questions or further discussions, please contact:
+   - Mishal Singhai [Email](mailto:mishalsinghai21032001@gmail.com)
 
 
 
