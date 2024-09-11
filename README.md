@@ -100,6 +100,12 @@ This process can be computationally expensive for large matrices and can benefit
    - Mishal Singhai 
    [Email](mailto:mishalsinghai21032001@gmail.com)
 
+11. ***References***
+   - "Parallel Programming with MPI" by Peter Pacheco
+   - "Introduction to High-Performance Scientific Computing" by Victor Eijkhout
+   - "Matrix Computations" by Gene H. Golub and Charles F. Van Loan
+   - Open-Source Web-Journals
+
 
 
 
